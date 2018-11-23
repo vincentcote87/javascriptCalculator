@@ -1,0 +1,1 @@
+$('.btn').css('color', $('body').css('background-color'));

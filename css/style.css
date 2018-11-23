@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+body {
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+
+.calculator {
+    width: 35vw;
+    margin: 0 auto;
+}
+
+.gridParent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+
+.display {
+    height: 150px;
+}
+
+.btn {
+    filter: invert(100%);
+    font-size: 3em;
+    /* border: solid 1px black;
+    border-radius: 50%;
+    padding: 20px; */
+}
+
+/* GRID */
+.display {
+    grid-column: 1 / -1;
+}
